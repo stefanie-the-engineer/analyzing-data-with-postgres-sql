@@ -1,1 +1,1 @@
-# analyzing-data-with-postgres-sql
+# Analyzing Data With PostgreSQL
