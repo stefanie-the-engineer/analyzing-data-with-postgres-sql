@@ -29,5 +29,14 @@ After creating the ERD, we created the database schema including the tables with
 * The dept_manager - The "Department No" attribute is the foreign key referencing the "Departments" table and the "Employee No" attribute is the foreign key that references the "Employees" table. The "From Date" and "To Date" attributes are DATE data types and are set to NOT NULL as a company will need to know the dates an employee spent as the manager at a particular department at the company.
 
 ## Data Analysis
-Using the information in the tables, queries were created to obtain the requested information from the tables.
+Using the information in the tables, queries were created to obtain the requested information from the tables. The following queries were requested:
+
+* List the following details of each employee: employee number, last name, first name, gender, and salary.
+* List employees who were hired in 1986.
+* List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name, and start and end employment dates.
+* List the department of each employee with the following information: employee number, last name, first name, and department name.
+* List all employees whose first name is "Hercules" and last names begin with "B."
+* List all employees in the Sales department, including their employee number, last name, first name, and department name.
+* List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
+* In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
